@@ -15,7 +15,7 @@ game.StarterGui:SetCore("SendNotification", {
 end
 
 Msgreq("FE Neko Anims made by Fivio","Loading, please wait while it loads you impatient fuck jkjk xd",5,nil)
-local SongID = "http://www.roblox.com/asset/?id=6852999211"
+local SongID = "http://www.roblox.com/asset/?id=6512328234"
   Bypass = "death"
 if not Bypass then Bypass = "limbs" end
 HumanDied = false
