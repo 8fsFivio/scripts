@@ -1,0 +1,104 @@
+
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local label = Instance.new("TextLabel")
+local admin = Instance.new("TextButton")
+local netbypass = Instance.new("TextButton")
+local neeko = Instance.new("TextButton")
+local doggo = Instance.new("TextButton")
+local suicide = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ScreenGui.ResetOnSpawn = false 
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderColor3 = Color3.fromRGB(170, 0, 0)
+Frame.Position = UDim2.new(0.407710224, 0, 0.20303601, 0)
+Frame.Size = UDim2.new(0, 286, 0, 312)
+Frame.Active = true
+Frame.Draggable = true
+
+label.Name = "label"
+label.Parent = Frame
+label.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
+label.BorderColor3 = Color3.fromRGB(170, 0, 0)
+label.Size = UDim2.new(0, 286, 0, 43)
+label.Font = Enum.Font.GothamBlack
+label.Text = "Troll hub by Fivio"
+label.TextColor3 = Color3.fromRGB(0, 0, 0)
+label.TextSize = 26.000
+
+admin.Name = "admin"
+admin.Parent = Frame
+admin.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
+admin.BorderColor3 = Color3.fromRGB(170, 0, 0)
+admin.Position = UDim2.new(0.520978928, 0, 0.25, 0)
+admin.Size = UDim2.new(0, 131, 0, 178)
+admin.Font = Enum.Font.GothamBlack
+admin.Text = "NIG NAG NIGGER"
+admin.TextColor3 = Color3.fromRGB(0, 0, 0)
+admin.TextSize = 14.000
+admin.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/8fsFivio/scripts/main/1%20inf%20alt.lua"))()
+end)
+
+netbypass.Name = "netbypass"
+netbypass.Parent = Frame
+netbypass.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
+netbypass.BorderColor3 = Color3.fromRGB(170, 0, 0)
+netbypass.Position = UDim2.new(0.0244755242, 0, 0.25, 0)
+netbypass.Size = UDim2.new(0, 132, 0, 36)
+netbypass.Font = Enum.Font.GothamBlack
+netbypass.Text = "NETBYPASS"
+netbypass.TextColor3 = Color3.fromRGB(0, 0, 0)
+netbypass.TextSize = 14.000
+netbypass.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://pastebin.com/raw/Cu7bKQWN'),true))()
+end)
+
+neeko.Name = "neeko"
+neeko.Parent = Frame
+neeko.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
+neeko.BorderColor3 = Color3.fromRGB(170, 0, 0)
+neeko.Position = UDim2.new(0.0244755242, 0, 0.403846145, 0)
+neeko.Size = UDim2.new(0, 132, 0, 36)
+neeko.Font = Enum.Font.GothamBlack
+neeko.Text = "NEEKO (R6)"
+neeko.TextColor3 = Color3.fromRGB(0, 0, 0)
+neeko.TextSize = 14.000
+neeko.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/8fsFivio/scripts/main/6%20FE%20NEKOOOO.lua"))()
+end)
+
+doggo.Name = "doggo"
+doggo.Parent = Frame
+doggo.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
+doggo.BorderColor3 = Color3.fromRGB(170, 0, 0)
+doggo.Position = UDim2.new(0.0244755242, 0, 0.554487169, 0)
+doggo.Size = UDim2.new(0, 132, 0, 36)
+doggo.Font = Enum.Font.GothamBlack
+doggo.Text = "DOGGO (R6)"
+doggo.TextColor3 = Color3.fromRGB(0, 0, 0)
+doggo.TextSize = 14.000
+doggo.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/8fsFivio/scripts/main/DOGG"))()
+end)
+
+suicide.Name = "suicide"
+suicide.Parent = Frame
+suicide.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
+suicide.BorderColor3 = Color3.fromRGB(170, 0, 0)
+suicide.Position = UDim2.new(0.0244755261, 0, 0.705128193, 0)
+suicide.Size = UDim2.new(0, 132, 0, 36)
+suicide.Font = Enum.Font.GothamBlack
+suicide.Text = "SUICIDE (R6)"
+suicide.TextColor3 = Color3.fromRGB(0, 0, 0)
+suicide.TextSize = 14.000
+suicide.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/8fsFivio/scripts/main/SNAP%20HEAD.lua"))()
+end)
